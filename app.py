@@ -33,7 +33,7 @@ tab1, tab2, tab3 = st.tabs(["🔍 검색하기", "💾 저장된 뉴스 보기",
 # Tab 1: 검색 및 저장 로직
 # ==========================================
 with tab1:
-    st.subheader("새로운 뉴스 검색")
+    st.subheader("최신 뉴스 검색")
     
     with st.form("search_form"):
         keyword = st.text_input("검색할 키워드를 입력하세요 (예: 인공지능, 테슬라, 한국경제 등)")
